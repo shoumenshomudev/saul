@@ -1,0 +1,112 @@
+/* All Common Css Start */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  width: 1320px;
+}
+/* All Common Css End */
+
+/* Header Part CSS Start Here  */
+#headerPart {
+  padding: 50px 0;
+  background: #222831;
+  border-bottom: 2px solid #eeeeee15;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul {
+  display: flex;
+  gap: 48px;
+}
+
+.menu ul a li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #eeeeee;
+}
+/* Header Part CSS End Here */
+
+/* Banner Part CSS End Here */
+
+#bannerPart {
+  padding-top: 173px;
+  padding-bottom: 73px;
+  background: #222831;
+  position: relative;
+}
+.bannerIcon{
+    position: absolute;
+  bottom: 400px;
+  
+    
+
+}
+.bannerContent {
+  display: flex;
+  /* align-items: center; */
+  gap: 120px;
+}
+.bannerText {
+  margin-left: 87px;
+  margin-top: 50px;
+}
+
+.bannerText h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 96px;
+  width: 586px;
+  color: #eeeeee;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+.bannerText h1 span {
+  color: #00adb5;
+}
+.bannerBtn {
+  display: flex;
+  gap: 24px;
+}
+.bannerBtn a {
+  padding: 10px 32px;
+  background: #00adb5;
+  border-radius: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #eeeeee;
+  text-shadow: 0px 4px 4px #000000;
+  align-items: center;
+  
+}
+.bannerBtn a i{
+margin-left: 6px;
+}
+
+.bannerBtn a:hover{
+    background-color: rgba(57, 62, 70, 0.75);
+    transition: .3s;
+}
+/* .bannerBtn a:hover{
+    background-color: rgba(57, 62, 70, 0.75);
+    transition: .3s;
+} */
+
+/* Banner Part CSS End Here */
